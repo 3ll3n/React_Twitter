@@ -1,4 +1,5 @@
 import React from 'react';
+import TweetList from './TweetList'
 
 var sampleData = [
   {id: 1, username: 'Buffy', real_name: 'Buffy Summers', text: 'I am a vampire slayer'},
@@ -17,6 +18,7 @@ export default class Feed extends React.Component {
     return (
       <div>
       <h2>Tweets</h2>
+      <TweetList tweets={this.state.data}>
       </div>
       );
   }

@@ -1,5 +1,6 @@
 import React from 'react';
-import TweetList from './TweetList'
+import TweetList from './TweetList';
+import DisplayAnImage from './DisplayAnImage';
 
 var sampleData = [
   {id: 1, username: 'Buffy', real_name: 'Buffy Summers', text: 'I am a vampire slayer.'},

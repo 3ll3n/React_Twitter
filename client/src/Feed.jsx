@@ -18,7 +18,7 @@ export default class Feed extends React.Component {
     return (
       <div>
       <h2>Tweets</h2>
-      <TweetList tweets={this.state.data}>
+      <TweetList tweets={this.state.data}/>
       </div>
       );
   }

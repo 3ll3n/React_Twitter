@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Feed from './Feed'
+
 window.onload = function(){
   ReactDOM.render(
-    <h1> App Started </h1>,
+    <Feed/>,
     document.getElementById('app')
   );
 }

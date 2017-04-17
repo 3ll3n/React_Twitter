@@ -12,4 +12,12 @@ export default class Feed extends React.Component {
       data: sampleData
     };
   }
+
+  render() {
+    return (
+      <div>
+      <h2>Tweets</h2>
+      </div>
+      );
+  }
 }

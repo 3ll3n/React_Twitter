@@ -8,13 +8,13 @@ export default class Tweet extends React.Component {
     return (
       <div>
         <h2 id="username">
-          {this.props.username}
+          Username: {this.props.username}
         </h2>
         <h4 id="real_name">
-          {this.props.real_name}
+          Real Name: {this.props.real_name}
         </h4>
         <p>
-          {this.props.children}
+          Tweet: {this.props.children}
         </p>
       </div>
       );

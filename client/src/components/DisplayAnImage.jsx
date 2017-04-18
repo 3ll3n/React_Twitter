@@ -1,14 +1,14 @@
 import React from 'react';
-import { AppRegistry, View, Image} from 'react-native';
 
-export default class DisplayAnImage extents React.Component {
+export default class DisplayAnImage extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
-      <View>
-      <Image source={require('./build/res/img/jessie.png')} />
-      </View>
+      <img width={this.props.width} src='./res/img/jessie.png' />
       ); 
   }
 }
-
-AppRegistry.registerComponent('DisplayAnImage', () => DisplayAnImage);
